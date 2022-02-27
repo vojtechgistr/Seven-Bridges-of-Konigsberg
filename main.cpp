@@ -20,7 +20,7 @@ class bridgePuzzle {
     public:
     
         vector<string> startWalkingFromArea(string area) {
-            createPathFrom(area);                                             // CALLS A "createPathFrom()" FUNCTION
+            createPathFrom(area);                                             // CALLS A "createPathFrom()" FUNCTION WITH AREA "A", "B", "C", or "D"
             return paths;                                                     // RETURNS ALL GENERATED PATHS
         }
 
